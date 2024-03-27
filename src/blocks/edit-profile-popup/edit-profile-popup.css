@@ -1,0 +1,29 @@
+.popup-edit-profile {
+  padding-top: 40px;
+}
+
+.popup__form-type-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.popup-edit-profile__title {
+  color: #fff;
+  text-shadow: 5px 5px 5px rgba(28,25,77,.8);
+  font-size: 20px;
+}
+
+.popup__input_type_name {
+  display: block;
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  text-shadow: 1px 1px 5px rgba(28,25,77,.8);
+font-weight: 500;
+}
+
+.popup__input_type_name::placeholder {
+  color: #000;
+  font-weight: 700;
+}

@@ -1,0 +1,34 @@
+.close-button {
+  background: url(../../images/close-button-ico.svg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  block-size: 50px;
+  position: absolute;
+
+}
+
+.close-edit-profile-button {
+
+  top: -40px;
+  right: -140px;
+
+}
+
+.close-new-wish-button {
+
+  top: -18px;
+  right: -106px;
+}
+
+.card__close-button {
+  opacity: .5;
+  inline-size: 50px;
+  top: 0px;
+  right: 0px;
+}
+
+.delete-button {
+  background: url(../../images/delete-button-icon.svg) no-repeat;
+  background-position: center;
+
+}

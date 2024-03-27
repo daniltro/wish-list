@@ -1,0 +1,39 @@
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 0.5242471988795518) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  padding: 30px 50px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 5vb;
+  -webkit-box-shadow: 0px 15px 40px 4px rgba(28, 25, 77, 0.9);
+  -moz-box-shadow: 0px 15px 40px 4px rgba(28, 25, 77, 0.9);
+  box-shadow: 0px 15px 40px 4px rgba(28, 25, 77, 0.9);
+}
+
+.user-avatar {
+  block-size: 60px;
+  min-inline-size: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-avatar img {
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+.user-name {
+  font-family: Ubuntu, sans-serif;
+  color: aliceblue;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px rgba(28,25,77,.8);
+}

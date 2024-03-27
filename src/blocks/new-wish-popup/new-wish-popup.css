@@ -1,0 +1,42 @@
+.popup-type-new-wish {
+}
+.popup-content {
+  
+}
+.button {
+}
+.popup__button {
+}
+.close-button {
+}
+.close-new-wish-button {
+}
+.new-wish-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal-list__label {
+  display: flex;
+  flex-direction: column;
+}
+.new-wish__subtitle {
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 5px 5px 5px rgba(28,25,77,.8);
+}
+.new-wish__info {
+  inline-size: 100%;
+  align-self: center;
+}
+.new-wish-popup__save-button {
+  margin-top: 20px;
+  border-radius: 10px;
+  color: black;
+  text-shadow: 5px 5px 5px rgba(28,25,77,.8);
+
+
+}

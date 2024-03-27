@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wishList</title>
+  </head>
+  <body class="page">
+    <div class="overlay"></div>
+    <main class="content">
+      <section class="user">
+    
+   <div class="container">
+            <div class="user-profile">
+              <div class="user-avatar">
+                <img
+                  src="<%=require('./images/user-avatar.jpg')%>"
+                  alt="аватар пользователя"
+                />
+              </div>
+              <div class="user-info">
+                <p class="user-name">Danil Sitdikov</p>
+              </div>
+              <button class="edit-profile-button button"></button>
+            </div>
+      
+   </div>
+      </section>
+      <section class="wish-list-content">
+        <div class="logo">
+          <a class="logo-link">My Wish List</a>
+        </div>
+        <div class="button-box">
+          <button class="new-wish button">
+            <img src="<%=require('./images/add-icon.svg')%>" alt="" />
+          </button>
+        </div>
+        <div class="my-wish-list">
+          <ul class="card-list">
+            <li
+              class="card-list__item empty-list-active empty-list"
+            >
+              <p class="empty-message">Список желаний пуст</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <dialog class="popup popup-edit-profile popup_is-animated ">
+      <div class="popup-content">
+        <h3 class="popup__title popup-edit-profile__title">
+          Редактировать профиль
+        </h3>
+        <button
+          class="button popup__button close-button close-edit-profile-button"
+        ></button>
+        <form class="popup__form-type-edit" name="edit-profile-form">
+          <input
+            type="text"
+            name="name"
+            class="popup__input popup__input_type_name"
+            placeholder="Введите имя"
+            required
+          />
+          <button type="submit" class="button popup__button save-button">
+            Сохранить
+          </button>
+        </form>
+      </div>
+    </dialog>
+    <dialog class="popup popup-type-new-wish popup_is-animated">
+      <div class="popup-content">
+        <button
+          class="button popup__button close-button close-new-wish-button"
+        ></button>
+        <form class="new-wish-form" name="new-wish-form">
+          <label class="modal-list__label">
+            <span class="new-wish__subtitle">Название</span>
+            <input
+              name="name"
+              type="text"
+              class="new-wish__info popup__input"
+            />
+          </label>
+
+          <label class="modal-list__label">
+            <span class="new-wish__subtitle">Цена</span>
+            <input
+              name="price"
+              type="text"
+              class="new-wish__info popup__input"
+            />
+          </label>
+
+          <label class="modal-list__label">
+            <span class="new-wish__subtitle">Ссылка на изображение</span>
+            <input
+              name="image-link"
+              type="text"
+              class="new-wish__info popup__input"
+              popup__input
+            />
+          </label>
+
+          <label class="modal-list__label">
+            <span class="new-wish__subtitle">Где купить</span>
+            <input
+              name="buy-link"
+              type="text"
+              class="new-wish__info popup__input"
+            />
+          </label>
+
+          <button class="button new-wish-popup__save-button">Сохранить</button>
+        </form>
+      </div>
+    </dialog>
+    <template class="card-template">
+      <li class="card-template__item">
+        <div class="card">
+          <button class="button close-button card__close-button delete-button"></button>
+          <p class="card-template__name card-template__title"></p>
+          <p class="card-template__price card-template__title"></p>
+          <div class="card-template__image-box">
+            <img
+              class="card-template__image"
+              src=""
+              alt=""
+            />
+          </div>
+          <a
+            href=""
+            class="card-template__link card-template__title"
+          >
+            Ссылка на покупку</a
+          >
+        </div>
+      </li>
+    </template>
+  </body>
+</html>

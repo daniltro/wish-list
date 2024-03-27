@@ -1,0 +1,23 @@
+@import url("../vendor/fonts.css");
+@import url('../blocks/page/page.css');
+@import url('../vendor/normalize.css');
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/user-profile/user-profiile.css');
+@import url('../blocks/edit-profile-button/edit-profile-button.css');
+@import url('../blocks/wish-list/wish-list.css');
+@import url('../blocks/new-wish-button/new-wish-button.css');
+@import url('../blocks/new-wish-popup/new-wish-popup.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/close-button/close.button.css');
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup-is-active/popup-is-active.css');
+@import url('../blocks/card-template/card-template.css');
+@import url('../blocks/edit-profile-popup/edit-profile-popup.css');
+@import url('../blocks/save-button/save-button.css');
+@import url('../blocks/mobile/mobile.css');
+@import url('../blocks/overlay/overlay.css');
+
+
+
+
+

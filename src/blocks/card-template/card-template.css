@@ -1,0 +1,66 @@
+.card-hidden {
+ display: none;
+}
+
+
+.card-template__item {
+  min-inline-size: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  background: linear-gradient(-90deg, #833ab4, rgba(212, 130, 130, .7) 50%, #fcb045);
+  flex-direction: column;
+  gap: 10px;
+  color: rgb(18, 18, 19);
+  font-family: Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  inline-size: 250px;
+
+}
+
+.card-template__title {
+  color: rgba(255, 255, 255, .7);
+  text-shadow: 5px 5px 5px rgba(28,25,77,.8);
+  font-size: 20px;
+}
+
+.card-template__name {
+  text-align: center;
+  
+}
+.card-template__price {
+  text-align: center;
+}
+
+.card-template__image-box {
+  inline-size: 100%;
+  block-size: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card-template__image {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+.card-template__link {
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
+.card-template__link::before {
+  content: '';
+  position: absolute;
+  background: url(../../images/link-icon.svg);
+  inline-size: 30px;
+  block-size: 30px;
+  bottom: 5px;
+  right: -10px;
+}

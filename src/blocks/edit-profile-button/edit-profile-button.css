@@ -1,0 +1,7 @@
+.edit-profile-button {
+  background: url(../../images/edit-profile-icon.svg);
+  background-size: cover;
+  block-size: 50px;
+  inline-size: 50px;
+  cursor: pointer;
+}

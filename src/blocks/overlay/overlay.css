@@ -1,0 +1,20 @@
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #000;
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+  transition: visibility 0s 0.6s, opacity 0.6s;
+  z-index: 1;
+}
+
+.overlay-active {
+  visibility: visible;
+  opacity: .6;
+  pointer-events: all;
+  user-select: all;
+  transition: visibility 0s 0s, opacity 0.6s;
+}

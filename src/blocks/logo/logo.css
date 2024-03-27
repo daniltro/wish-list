@@ -1,0 +1,12 @@
+.logo {
+  text-align: center;
+}
+
+.logo-link {
+  font-family: Ubuntu, sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  position: relative;
+  color: rgb(231, 209, 209);
+  text-shadow: 5px 5px 5px rgba(28, 25, 77, .8);
+}

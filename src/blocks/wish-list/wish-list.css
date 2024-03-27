@@ -1,0 +1,50 @@
+.wish-list-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5vb;
+}
+
+.my-wish-list {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-list {
+  display: flex;
+  gap: 15px;
+  overflow: auto;
+}
+
+.card-list::-webkit-scrollbar {
+  margin-top: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.card-list::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,86,253,0.5242471988795518) 50%, rgba(252,152,69,1) 100%);
+  border-radius: 5px;
+}
+
+
+.empty-list-active {
+  display: flex;
+  align-items: center;
+  min-block-size: 200px;
+  inline-size: fit-content;
+  border-radius: 30px;
+  padding: 50px;
+  list-style: none;
+  background: linear-gradient(-90deg, #833ab4, rgba(212, 130, 130, .5) 50%, #fcb045);
+}
+
+.empty-message {
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  color: rgba(227, 224, 224, 0.8);
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgba(28,25,77,.8);
+
+}

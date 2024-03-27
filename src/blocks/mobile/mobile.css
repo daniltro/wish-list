@@ -1,0 +1,13 @@
+@media ( width < 550px) {
+.user-profile {
+  padding-inline: 10px;
+}
+
+.my-wish-list {
+  padding: 20px;
+}
+
+.card-template-item {
+
+}
+}

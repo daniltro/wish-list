@@ -1,0 +1,17 @@
+.button-box {
+  display: flex;
+  justify-content: center;
+}
+
+.new-wish {
+  inline-size: 100px;
+  block-size: 100px;
+  opacity: .8;
+  background-color: transparent;
+}
+
+.new-wish img {
+  inline-size: 100%;
+  block-size: 100%;
+  transform: scale(1.5);
+}

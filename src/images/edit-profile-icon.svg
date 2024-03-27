@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="400" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(10 0 0 10 200 200)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(231, 209, 209); fill-rule: nonzero; opacity: 1;"  transform=" translate(-12, -12)" d="M 21 12 a 1 1 0 0 0 -1 1 v 6 a 1 1 0 0 1 -1 1 H 5 a 1 1 0 0 1 -1 -1 V 5 A 1 1 0 0 1 5 4 h 6 a 1 1 0 0 0 0 -2 H 5 A 3 3 0 0 0 2 5 V 19 a 3 3 0 0 0 3 3 H 19 a 3 3 0 0 0 3 -3 V 13 A 1 1 0 0 0 21 12 Z M 6 12.76 V 17 a 1 1 0 0 0 1 1 h 4.24 a 1 1 0 0 0 0.71 -0.29 l 6.92 -6.93 h 0 L 21.71 8 a 1 1 0 0 0 0 -1.42 L 17.47 2.29 a 1 1 0 0 0 -1.42 0 L 13.23 5.12 h 0 L 6.29 12.05 A 1 1 0 0 0 6 12.76 Z M 16.76 4.41 l 2.83 2.83 L 18.17 8.66 L 15.34 5.83 Z M 8 13.17 l 5.93 -5.93 l 2.83 2.83 L 10.83 16 H 8 Z" stroke-linecap="round" />
+</g>
+</svg>

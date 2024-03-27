@@ -1,0 +1,35 @@
+.page {
+  position: relative;
+  min-block-size: 100dvb;
+  /* max-inline-size: 1920px; */
+}
+
+.page::before {
+  content: "";
+  background: url(../../images/main-bg.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.page::after {
+  content: "";
+  position: absolute;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    180deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 86, 253, 0.5242471988795518) 50%,
+    rgba(69, 156, 252, 1) 100%
+  );
+  inset: 0;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.container {
+  max-inline-size: 1920px;
+  margin: auto;
+}
