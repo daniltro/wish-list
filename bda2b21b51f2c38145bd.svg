@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="40" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(8.33 0 0 8.33 200 200)" id="Reject"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-16, -16)" d="M 16 4 C 9.3828 4 4 9.3833 4 16 s 5.3828 12 12 12 s 12 -5.3833 12 -12 S 22.6172 4 16 4 z M 16 26 c -5.5137 0 -10 -4.4858 -10 -10 S 10.4863 6 16 6 s 10 4.4858 10 10 S 21.5137 26 16 26 z M 20.707 12.707 L 17.4141 16 l 3.293 3.293 c 0.3906 0.3906 0.3906 1.0234 0 1.4141 C 20.5117 20.9023 20.2559 21 20 21 s -0.5117 -0.0977 -0.707 -0.293 L 16 17.4141 l -3.293 3.293 C 12.5117 20.9023 12.2559 21 12 21 s -0.5117 -0.0977 -0.707 -0.293 c -0.3906 -0.3906 -0.3906 -1.0234 0 -1.4141 L 14.5859 16 l -3.293 -3.293 c -0.3906 -0.3906 -0.3906 -1.0234 0 -1.4141 s 1.0234 -0.3906 1.4141 0 L 16 14.5859 l 3.293 -3.293 c 0.3906 -0.3906 1.0234 -0.3906 1.4141 0 S 21.0977 12.3164 20.707 12.707 z" stroke-linecap="round" />
+</g>
+</svg>
