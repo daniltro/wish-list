@@ -6,9 +6,9 @@
   gap: 30px;
   background: linear-gradient(
     90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 0.5242471988795518) 50%,
-    rgba(252, 176, 69, 1) 100%
+    rgba(131, 58, 180, .5) 0%,
+    rgba(253, 29, 29, 0.265) 50%,
+    rgba(252, 176, 69, .5) 100%
   );
   padding: 30px 50px;
   border-bottom-left-radius: 20px;
@@ -24,11 +24,14 @@
   min-inline-size: 60px;
   border-radius: 50%;
   overflow: hidden;
+  position: relative;
+
 }
 
 .user-avatar img {
   inline-size: 100%;
   block-size: 100%;
+
 }
 
 .user-name {
